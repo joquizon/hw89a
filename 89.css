@@ -1,0 +1,98 @@
+
+@font-face {font-family: bcode;
+			src: url(code39r.ttf);}
+
+@font-face {font-family: scanner;
+			src: url(scan.ttf.ttf);}
+
+@font-face {font-family: decibel;
+			src: url(decibel.ttf);}
+
+@font-face {font-family: retro;
+			src: url(retro.ttf);}
+
+body {margin: 20%}
+
+#byte_content {
+    margin: 5px 0;
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font:bcode;
+  }
+
+
+h1 {color:black;
+		   font-family: retro;
+		   font-size: 24px}
+
+#passinst {color:black;
+		   font-family: retro;
+		   font-size: 14px}
+
+input[type="file"] {display: none;}
+
+.custom-file-upload {color:white;
+					font-size: 20px;
+				    border: 0px solid #ccc;
+				    background-color:white;
+				    display: inline-block;
+				    padding: 0px 3px;
+				    cursor: pointer;}
+
+#readfile { display: none;
+			}
+
+#punchit { display: none;
+			}
+
+#pushbutt { height:2%;
+			width:2%;
+		cursor: pointer;}
+
+#entry { height:2%;
+			width:2%;
+		cursor: pointer;}
+
+#enterbutt {height:65%;
+			width:65%;}
+
+#byte_range {font-family: scanner;
+			   color:white;
+			   background-color: black;}
+#byte_content {font-family: scanner;
+			   color:white;
+			   background-color: gray;
+			   font-size: 20px}
+#byte_range { margin-top: 5px; }
+
+#myText2 {background-color:gray;
+			color:white;		  
+		  font-size: 20px;
+		  border:0px;
+		  width:90px;
+		  padding:0px;
+		  font-family:decibel;}
+
+.input {font-family:retro ;
+		width:120px;
+	    font-size: 12px;
+ 		padding:2px;			
+ 		color:black;
+ 		background-color:gray;
+		border:0px;}
+
+#moon {background-image: url("moon.gif");
+	      height:50%;
+	      width:50%;
+		  background-repeat:no-repeat;
+		  background-attachment:fixed;
+		  background-size:cover;}
+
+.demo {color:white;
+	   font-family: retro;
+	   font-size: 14px}
+
+#mouser {height:900px;
+		 width:900px;}
+		
